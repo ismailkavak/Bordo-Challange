@@ -1,0 +1,92 @@
+.advert-card{
+    width: 750px;
+    height: 100px;
+    background-color: #E8E8EA;
+    border-radius: 12px;
+    margin: auto;
+    margin-top: -180px;
+    margin-bottom: 80px;
+    
+}
+
+.advertisement{
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: #696A75;
+    
+}
+
+.ads-message{
+    position: relative;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #696A75;
+}
+
+.resolution{
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #696A75;
+}
+
+.advert-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}    
+    
+.latest-post{
+    font-weight: 700;
+    font-size: 24px;
+    color: #181A2A;
+    margin-bottom: 32px;
+    
+}
+
+.post-card{
+    width: 392px;
+    height: 488px;
+    box-sizing: border-box;
+    border: 1px solid #E8E8EA;
+    border-radius: 12px;
+    padding: 16px;
+}
+
+.post-img{
+    width: 360px;
+    height: 240px;
+    border-radius: 6px;
+    margin-bottom: 16px;
+}
+
+.post-text-container{
+    width: 360px;
+    height: 200px;
+    padding: 8px;
+}
+
+.post-tag{
+    text-align: center;
+    width: 97px;
+    height: 28px;
+    border-radius: 6px;
+    padding: 4px;
+    background-color: #4B6BFB0D;
+   
+}
+
+.post-tag>span{
+    margin: auto;
+    color: #4B6BFB;
+    font-size: 14px;
+    font-weight: 600;
+    
+    
+}
+
+
+

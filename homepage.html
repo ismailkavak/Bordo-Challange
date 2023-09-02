@@ -1,0 +1,197 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" href="navbar.css">
+  <link rel="stylesheet" href="carousel-card.css">
+  <link rel="stylesheet" href="advert-card.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Montserrat:wght@300&family=Noto+Sans+JP:wght@300&family=Work+Sans&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+
+  <!-- Navbar-Start -->
+  <div class="container" id="fixed">
+    <div class="row">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-10">
+        <nav class="navbar navbar-expand-lg mt-2 mb-2">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="img/Main Page Images/Logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse navbar-positioning" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 navbar-ul">
+                <li class="nav-item ">
+                  <a class="nav-link" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Blog</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Single Post
+                  </a>
+
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-disabled="true">Pages</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-disabled="true">Contact</a>
+                </li>
+              </ul>
+              <form class="d-flex search-positioning" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search " aria-label="Search">
+                <!-- TODO 1 : Put search icon into input tag -->
+                <!-- TODO 2 : Add dark mode light mode button -->
+
+
+              </form>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div class="col-sm-1"></div>
+    </div>
+  </div>
+  <!-- Navbar-End -->
+  <div class="container">
+    <!-- Carousel-Start -->
+    <div class="container mt-2">
+      <div class="row">
+        <div class="col-sm-1">
+        </div>
+        <div class="col-sm-10">
+          <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/Main Page Images/Intro Image.png" class="d-block w-100" alt="..." id="radius">
+              </div>
+              <div class="carousel-item">
+                <img src="img/Main Page Images/Intro Image.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/Main Page Images/Intro Image.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev carousel" type="button" data-bs-target="#carouselExampleRide"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+
+          </div>
+          <!-- Carousel-End -->
+          <!-- Insert Card Above Carousel-Start -->
+          <div class="card">
+            <div class="btn card-head bg-primary">
+              Technology
+            </div>
+            <div class="inner-content">
+
+              The Impact of Technology on the Workplace: How Technology is Changing
+            </div>
+            <div>
+              <div class="layout">
+                <img src="img/Main Page Images/Image.png" alt="">
+                <span>Jason Fransisco</span>
+              </div>
+              <div id="card-date">
+                August 20, 2022</div>
+            </div>
+          </div>
+          <!-- Insert Card Above Carousel-End-->
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="advert-card">
+                <div class="advert-area">
+                  <div class="advertisement">Advertisement</div>
+                  <div class="ads-message">You can place ads</div>
+                  <div class="resolution">750x100</div>
+                </div>
+              </div>
+            </div>
+            <div class="latest-post">Latest Post</div>
+            <div class="col-sm-4">
+              <div class="post-card">
+                <div class="post-img">
+                  <img src="img/Main Page Images/Post Cards Images/Rectangle 38.png" alt="Post Image">
+                </div>
+                <div class="post-text-container">
+                  <div class="post-tag">
+                    <span>Technology</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            
+          </div>
+
+
+
+
+        </div>
+        <div class="col-sm-1">
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- DONT FORGET TO WRITE INTERNSHIP DAILY -->
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+
+</body>
+</html>
