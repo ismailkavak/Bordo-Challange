@@ -3,10 +3,8 @@
     width: 598px;
     height: 304px;
     top: -220px;
-    
     position: relative;
     left: 125px;
-    
     border-radius: 12px;
     border: 1px solid #E8E8EA;
     padding: 40px;
@@ -14,10 +12,12 @@
     box-shadow: 0 6px 12px -6px #181A2A;
     background-color: white;
     z-index: 1;
+}    
     
-  }
+    
+  
 
-  .inner-content {
+  .card>.inner-content {
     line-height: 40px;
     font-weight: 600;
     margin-bottom: 24px;
@@ -47,14 +47,14 @@ div>.card-head{
 }
 
 
-.layout>span{
+.user-info-container>span{
     margin-left: 6px;
     color: #97989F;
     
     
 }    
 
-#card-date, .layout{
+#card-date, .user-info-container{
     display: inline-block;
     
     

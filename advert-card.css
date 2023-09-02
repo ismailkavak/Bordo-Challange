@@ -9,6 +9,15 @@
     
 }
 
+.advert-card2{
+    width: 750px;
+    height: 100px;
+    background-color: #E8E8EA;
+    border-radius: 12px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
 .advertisement{
     margin-top: 10px;
     font-weight: 400;
@@ -43,17 +52,18 @@
     font-weight: 700;
     font-size: 24px;
     color: #181A2A;
-    margin-bottom: 32px;
+    
     
 }
 
 .post-card{
     width: 392px;
     height: 488px;
-    box-sizing: border-box;
+    box-sizing: 360px;
     border: 1px solid #E8E8EA;
     border-radius: 12px;
     padding: 16px;
+    
 }
 
 .post-img{
@@ -88,5 +98,31 @@
     
 }
 
+.post-text-container>.inner-content{
+    margin-top: 16px;
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #181A2A;
+    line-height: 28px;
+    
+    
+}
 
 
+.view-button{
+    width: 142px;
+    height: 48px;
+    border-radius: 6px;
+    border: 1px solid #696A754D;
+    margin: 32 auto;
+}    
+
+.view-button:hover{
+    background-color: white;
+}
+
+.view-button>span{
+    color: #696A75;
+    text-align: center;
+}
