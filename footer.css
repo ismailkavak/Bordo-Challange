@@ -7,7 +7,23 @@ footer{
     margin-top: 64px;
 }
 
-.footer-col>h4{
+#about-part>p{
+    font-weight: 400;
+    color: #696A75;
+}
+
+.contact>p{
+    font-weight: 400;
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.contact>p>span{
+    font-weight: bold;
+    opacity: 1.5;
+    color: black;
+}    
+.footer-col>h5{
     font-weight: 600;
     font-size: 18px;
     
@@ -39,9 +55,21 @@ footer{
 
 }
 
-.footer-col>.about-ul{
+.meta-blog{
     font-weight: 400;
-    color: #696A75;
+    opacity: 0.8;
+    color: black;
+}
+.meta-blog>span{
+    font-weight: 700;
+    
+}    
+
+.template{
+    color: #3B3C4A;
+    font-weight: 400;
+    opacity: 0.8;
+    
 }
 
 .footer-policy>li>a{
@@ -49,4 +77,10 @@ footer{
     color: #3B3C4A;
 
 }
+
+
+    
+
+
+
 

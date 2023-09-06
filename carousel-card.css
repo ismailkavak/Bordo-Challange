@@ -13,8 +13,6 @@
     
 }    
       
-     
-
 .carousel-position{
     position: relative;
 }       
@@ -32,7 +30,6 @@
 }
 
 .card-head{
-    
     top: 0;
     left: 0;
     margin-right: 450px;
@@ -42,9 +39,6 @@
     display: flex;
     text-align: center;
     justify-content: center;
-    
-
-    
 }            
 
 div>.card-head{
@@ -55,25 +49,25 @@ div>.card-head{
 .user-info-container>span{
     margin-left: 6px;
     color: #97989F;
-    
-    
 }    
 
 #card-date, .user-info-container{
     display: inline-block;
+}    
     
-    
-}
-  
 #card-date{
-    
-    
     font-weight: 400;
     color: #97989F;
     font-size: 16px;
     margin-left: 16px;
+}         
+
+
+  
+
     
-}     
+    
+     
 
 
 
