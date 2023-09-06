@@ -8,12 +8,19 @@
   <link rel="stylesheet" href="navbar.css">
   <link rel="stylesheet" href="carousel-card.css">
   <link rel="stylesheet" href="advert-card.css">
+  <link rel="stylesheet" href="footer.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
     href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Montserrat:wght@300&family=Noto+Sans+JP:wght@300&family=Work+Sans&display=swap"
     rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Montserrat:wght@300&family=Noto+Sans+JP:wght@300&family=Plus+Jakarta+Sans:wght@600&family=Work+Sans&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <style>
+
+  </style>
 </head>
 <body>
 
@@ -66,22 +73,46 @@
   </div>
   <!-- Navbar-End -->
 
+
+
   <!-- Carousel-Start -->
   <div class="container mt-2">
     <div class="row">
-
       <div class="col-sm-12">
-        <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
-          <div class="carousel-inner">
+        <div id="carouselExampleRide" class="carousel slide carousel-position" data-bs-ride="true">
+          <div class="carousel-inner carousel-padding">
             <div class="carousel-item active">
-              <img src="img/Main Page Images/Intro Image.png" class="d-block w-100" alt="..." id="radius">
-            </div>
-            <div class="carousel-item">
               <img src="img/Main Page Images/Intro Image.png" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
               <img src="img/Main Page Images/Intro Image.png" class="d-block w-100" alt="...">
             </div>
+            <div class="carousel-item">
+              <img src="img/Main Page Images/Intro Image.png" class="d-block w-100" alt="...">
+            </div>
+            <!-- Put Card Above Carousel-Start -->
+            <!-- Use padding and max -->
+
+
+            <div class="card">
+              <div class="btn card-head bg-primary">
+                Technology
+              </div>
+              <div class="inner-content">
+
+                The Impact of Technology on the Workplace: How Technology is Changing
+              </div>
+              <div>
+                <div class="user-info-container">
+                  <img src="img/Main Page Images/Jason.png" alt="">
+                  <span>Jason Fransisco</span>
+                </div>
+                <div id="card-date">
+                  August 20, 2022</div>
+              </div>
+            </div>
+            <!-- Put Card Above Carousel-End-->
+
           </div>
           <button class="carousel-control-prev carousel" type="button" data-bs-target="#carouselExampleRide"
             data-bs-slide="prev">
@@ -94,33 +125,250 @@
             <span class="visually-hidden">Next</span>
           </button>
 
+
         </div>
-        <!-- Carousel-End -->
-        <!-- Insert Card Above Carousel-Start -->
+      </div>
 
-        <div class="card">
-          <div class="btn card-head bg-primary">
-            Technology
+      <div class="col-sm-12">
+        <div class="advert-card">
+          <div class="advert-area">
+            <div class="advertisement">Advertisement</div>
+            <div class="ads-message">You can place ads</div>
+            <div class="resolution">750x100</div>
           </div>
-          <div class="inner-content">
+        </div>
+      </div>
+    </div>
 
-            The Impact of Technology on the Workplace: How Technology is Changing
+  </div>
+  <!-- Carousel-End -->
+
+  <!-- Posts Part-Start -->
+  <div class="container">
+    <div class="latest-post">Latest Post</div>
+    <div class="row gy-4">
+      <div class="col-sm-4">
+        <div class="post-card">
+          <div class="post-img">
+            <img src="img/Main Page Images/Post Cards Images/Rectangle 39.png" alt="Post Image" class="w-100">
           </div>
-          <div>
-            <div class="user-info-container">
-              <img src="img/Main Page Images/Jason.png" alt="">
-              <span>Jason Fransisco</span>
+          <div class="post-text-container">
+            <div class="post-tag">
+              <span>Technology</span>
             </div>
-            <div id="card-date">
-              August 20, 2022</div>
+            <div class="inner-content">
+              The Impact of Technology on the Workplace: How Technology is <span style="color: #C32C22;">Changing</span>
+            </div>
+            <div>
+              <div class="user-info-container">
+                <img src="img/Main Page Images/Post Cards Images/Image (2).png" alt="">
+                <span>Tracey Wilson</span>
+              </div>
+              <div id="card-date">
+                August 20, 2022</div>
+            </div>
           </div>
         </div>
+      </div>
 
+      <div class="col-sm-4">
+        <div class="post-card">
+          <div class="post-img">
+            <img src="img/Main Page Images/Post Cards Images/Rectangle 38 (1).png" alt="Post Image" class="w-100">
+          </div>
+          <div class="post-text-container">
+            <div class="post-tag">
+              <span>Technology</span>
+            </div>
+            <div class="inner-content">
+              The Impact of Technology on the Workplace: How Technology is Changing
+            </div>
+            <div>
+              <div class="user-info-container">
+                <img src="img/Main Page Images/Post Cards Images/Image (3).png" alt="">
+                <span>Tracey Wilson</span>
+              </div>
+              <div id="card-date">
+                August 20, 2022</div>
+            </div>
+          </div>
+        </div>
+      </div>
 
-        <!-- Insert Card Above Carousel-End-->
+      <div class="col-sm-4">
+        <div class="post-card">
+          <div class="post-img">
+            <img src="img/Main Page Images/Post Cards Images/Rectangle 38 (2).png" alt="Post Image" class="w-100">
+          </div>
+          <div class="post-text-container">
+            <div class="post-tag">
+              <span>Technology</span>
+            </div>
+            <div class="inner-content">
+              The Impact of Technology on the Workplace: How Technology is Changing
+            </div>
+            <div>
+              <div class="user-info-container">
+                <img src="img/Main Page Images/Post Cards Images/Image (1).png" alt="">
+                <span>Tracey Wilson</span>
+              </div>
+              <div id="card-date">
+                August 20, 2022</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="post-card">
+          <div class="post-img">
+            <img src="img/Main Page Images/Post Cards Images/Rectangle 38 (3).png" alt="Post Image" class="w-100">
+          </div>
+          <div class="post-text-container">
+            <div class="post-tag">
+              <span>Technology</span>
+            </div>
+            <div class="inner-content">
+              The Impact of Technology on the Workplace: How Technology is Changing
+            </div>
+            <div>
+              <div class="user-info-container">
+                <img src="img/Main Page Images/Post Cards Images/Image.png" alt="">
+                <span>Tracey Wilson</span>
+              </div>
+              <div id="card-date">
+                August 20, 2022</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="post-card">
+          <div class="post-img">
+            <img src="img/Main Page Images/Post Cards Images/Rectangle 38 (4).png" alt="Post Image" class="w-100">
+          </div>
+          <div class="post-text-container">
+            <div class="post-tag">
+              <span>Technology</span>
+            </div>
+            <div class="inner-content">
+              The Impact of Technology on the Workplace: How Technology is Changing
+            </div>
+            <div>
+              <div class="user-info-container">
+                <img src="img/Main Page Images/Post Cards Images/Image (3).png" alt="">
+                <span>Tracey Wilson</span>
+              </div>
+              <div id="card-date">
+                August 20, 2022</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="post-card">
+          <div class="post-img">
+            <img src="img/Main Page Images/Post Cards Images/Rectangle 38 (5).png" alt="Post Image" class="w-100">
+          </div>
+          <div class="post-text-container">
+            <div class="post-tag">
+              <span>Technology</span>
+            </div>
+            <div class="inner-content">
+              The Impact of Technology on the Workplace: How Technology is Changing
+            </div>
+            <div>
+              <div class="user-info-container">
+                <img src="img/Main Page Images/Post Cards Images/Image (1).png" alt="">
+                <span>Tracey Wilson</span>
+              </div>
+              <div id="card-date">
+                August 20, 2022</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="post-card">
+          <div class="post-img">
+            <img src="img/Main Page Images/Post Cards Images/Rectangle 38 (6).png" alt="Post Image" class="w-100">
+          </div>
+          <div class="post-text-container">
+            <div class="post-tag">
+              <span>Technology</span>
+            </div>
+            <div class="inner-content">
+              The Impact of Technology on the Workplace: How Technology is Changing
+            </div>
+            <div>
+              <div class="user-info-container">
+                <img src="img/Main Page Images/Post Cards Images/Image.png" alt="">
+                <span>Tracey Wilson</span>
+              </div>
+              <div id="card-date">
+                August 20, 2022</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="post-card">
+          <div class="post-img">
+            <img src="img/Main Page Images/Post Cards Images/Rectangle 38 (7).png" alt="Post Image" class="w-100">
+          </div>
+          <div class="post-text-container">
+            <div class="post-tag">
+              <span>Technology</span>
+            </div>
+            <div class="inner-content">
+              The Impact of Technology on the Workplace: How Technology is Changing
+            </div>
+            <div>
+              <div class="user-info-container">
+                <img src="img/Main Page Images/Post Cards Images/Image (1).png" alt="">
+                <span>Tracey Wilson</span>
+              </div>
+              <div id="card-date">
+                August 20, 2022</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="post-card">
+          <div class="post-img">
+            <img src="img/Main Page Images/Post Cards Images/Rectangle 38.png" alt="Post Image" class="w-100">
+          </div>
+          <div class="post-text-container">
+            <div class="post-tag">
+              <span>Technology</span>
+            </div>
+            <div class="inner-content">
+              The Impact of Technology on the Workplace: How Technology is Changing
+            </div>
+            <div>
+              <div class="user-info-container">
+                <img src="img/Main Page Images/Post Cards Images/Image (2).png" alt="">
+                <span>Tracey Wilson</span>
+              </div>
+              <div id="card-date">
+                August 20, 2022</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <button class="view-button"><span>View All Post</span></button>
+
+      <div class="container">
         <div class="row">
           <div class="col-sm-12">
-            <div class="advert-card">
+            <div class="advert-card2">
               <div class="advert-area">
                 <div class="advertisement">Advertisement</div>
                 <div class="ads-message">You can place ads</div>
@@ -128,246 +376,105 @@
               </div>
             </div>
           </div>
-          <div class="latest-post">Latest Post</div>
-          <div class="row  gy-4">
-            <div class="col-sm-4">
-              <div class="post-card">
-                <div class="post-img">
-                  <img src="img/Main Page Images/Post Cards Images/Rectangle 39.png" alt="Post Image">
-                </div>
-                <div class="post-text-container">
-                  <div class="post-tag">
-                    <span>Technology</span>
-                  </div>
-                  <div class="inner-content">
-                    The Impact of Technology on the Workplace: How Technology is <span
-                      style="color: #C32C22;">Changing</span>
-                  </div>
-                  <div>
-                    <div class="user-info-container">
-                      <img src="img/Main Page Images/Post Cards Images/Image (2).png" alt="">
-                      <span>Tracey Wilson</span>
-                    </div>
-                    <div id="card-date">
-                      August 20, 2022</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-sm-4">
-              <div class="post-card">
-                <div class="post-img">
-                  <img src="img/Main Page Images/Post Cards Images/Rectangle 38 (1).png" alt="Post Image">
-                </div>
-                <div class="post-text-container">
-                  <div class="post-tag">
-                    <span>Technology</span>
-                  </div>
-                  <div class="inner-content">
-                    The Impact of Technology on the Workplace: How Technology is Changing
-                  </div>
-                  <div>
-                    <div class="user-info-container">
-                      <img src="img/Main Page Images/Post Cards Images/Image (3).png" alt="">
-                      <span>Tracey Wilson</span>
-                    </div>
-                    <div id="card-date">
-                      August 20, 2022</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-sm-4">
-              <div class="post-card">
-                <div class="post-img">
-                  <img src="img/Main Page Images/Post Cards Images/Rectangle 38 (2).png" alt="Post Image">
-                </div>
-                <div class="post-text-container">
-                  <div class="post-tag">
-                    <span>Technology</span>
-                  </div>
-                  <div class="inner-content">
-                    The Impact of Technology on the Workplace: How Technology is Changing
-                  </div>
-                  <div>
-                    <div class="user-info-container">
-                      <img src="img/Main Page Images/Post Cards Images/Image (1).png" alt="">
-                      <span>Tracey Wilson</span>
-                    </div>
-                    <div id="card-date">
-                      August 20, 2022</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-sm-4">
-              <div class="post-card">
-                <div class="post-img">
-                  <img src="img/Main Page Images/Post Cards Images/Rectangle 38 (3).png" alt="Post Image">
-                </div>
-                <div class="post-text-container">
-                  <div class="post-tag">
-                    <span>Technology</span>
-                  </div>
-                  <div class="inner-content">
-                    The Impact of Technology on the Workplace: How Technology is Changing
-                  </div>
-                  <div>
-                    <div class="user-info-container">
-                      <img src="img/Main Page Images/Post Cards Images/Image.png" alt="">
-                      <span>Tracey Wilson</span>
-                    </div>
-                    <div id="card-date">
-                      August 20, 2022</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-sm-4">
-              <div class="post-card">
-                <div class="post-img">
-                  <img src="img/Main Page Images/Post Cards Images/Rectangle 38 (4).png" alt="Post Image">
-                </div>
-                <div class="post-text-container">
-                  <div class="post-tag">
-                    <span>Technology</span>
-                  </div>
-                  <div class="inner-content">
-                    The Impact of Technology on the Workplace: How Technology is Changing
-                  </div>
-                  <div>
-                    <div class="user-info-container">
-                      <img src="img/Main Page Images/Post Cards Images/Image (3).png" alt="">
-                      <span>Tracey Wilson</span>
-                    </div>
-                    <div id="card-date">
-                      August 20, 2022</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-sm-4">
-              <div class="post-card">
-                <div class="post-img">
-                  <img src="img/Main Page Images/Post Cards Images/Rectangle 38 (5).png" alt="Post Image">
-                </div>
-                <div class="post-text-container">
-                  <div class="post-tag">
-                    <span>Technology</span>
-                  </div>
-                  <div class="inner-content">
-                    The Impact of Technology on the Workplace: How Technology is Changing
-                  </div>
-                  <div>
-                    <div class="user-info-container">
-                      <img src="img/Main Page Images/Post Cards Images/Image (1).png" alt="">
-                      <span>Tracey Wilson</span>
-                    </div>
-                    <div id="card-date">
-                      August 20, 2022</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-sm-4">
-              <div class="post-card">
-                <div class="post-img">
-                  <img src="img/Main Page Images/Post Cards Images/Rectangle 38 (6).png" alt="Post Image">
-                </div>
-                <div class="post-text-container">
-                  <div class="post-tag">
-                    <span>Technology</span>
-                  </div>
-                  <div class="inner-content">
-                    The Impact of Technology on the Workplace: How Technology is Changing
-                  </div>
-                  <div>
-                    <div class="user-info-container">
-                      <img src="img/Main Page Images/Post Cards Images/Image.png" alt="">
-                      <span>Tracey Wilson</span>
-                    </div>
-                    <div id="card-date">
-                      August 20, 2022</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-sm-4">
-              <div class="post-card">
-                <div class="post-img">
-                  <img src="img/Main Page Images/Post Cards Images/Rectangle 38 (7).png" alt="Post Image">
-                </div>
-                <div class="post-text-container">
-                  <div class="post-tag">
-                    <span>Technology</span>
-                  </div>
-                  <div class="inner-content">
-                    The Impact of Technology on the Workplace: How Technology is Changing
-                  </div>
-                  <div>
-                    <div class="user-info-container">
-                      <img src="img/Main Page Images/Post Cards Images/Image (1).png" alt="">
-                      <span>Tracey Wilson</span>
-                    </div>
-                    <div id="card-date">
-                      August 20, 2022</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-sm-4">
-              <div class="post-card">
-                <div class="post-img">
-                  <img src="img/Main Page Images/Post Cards Images/Rectangle 38.png" alt="Post Image">
-                </div>
-                <div class="post-text-container">
-                  <div class="post-tag">
-                    <span>Technology</span>
-                  </div>
-                  <div class="inner-content">
-                    The Impact of Technology on the Workplace: How Technology is Changing
-                  </div>
-                  <div>
-                    <div class="user-info-container">
-                      <img src="img/Main Page Images/Post Cards Images/Image (2).png" alt="">
-                      <span>Tracey Wilson</span>
-                    </div>
-                    <div id="card-date">
-                      August 20, 2022</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <button class="view-button"><span>View All Post</span></button>
-
-            <div class="container">
-              <div class="row">
-                <div class="col-sm-12">
-                  <div class="advert-card2">
-                    <div class="advert-area">
-                      <div class="advertisement">Advertisement</div>
-                      <div class="ads-message">You can place ads</div>
-                      <div class="resolution">750x100</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
         </div>
       </div>
     </div>
+
   </div>
+  <!-- Posts Part-End -->
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="footer-col">
+        <footer class="py-5">
+          <div class="row">
+            <div class="col-6 col-md-2 mb-3">
+              <h5>About</h5>
+              <ul class="nav flex-column about-ul">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+              </ul>
+            </div>
+      
+            <div class="col-6 col-md-2 mb-3">
+              <h5>Quick Link</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Blog</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Archived</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Author</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Contact</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-6 col-md-2 mb-3">
+              <h5>Category</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Life Style</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Technology</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Travel</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Business</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Economy</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Sports</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-md-5 offset-md-1 mb-3 form-tag">
+              <form>
+                <h5>Weekly newsletter</h5>
+                <p>Get blog articles and offers via email</p>
+                <div class="d-flex flex-column w-100 gap-2">
+                  <label for="newsletter1" class="visually-hidden">Email address <img src="img/Main Page Images/footerimage/mail.png" alt=""></label>
+                  <input id="newsletter1" type="text" class="form-control p-3" placeholder="Email address">
+                  
+                  <button class="btn btn-primary p-3" type="button">Subscribe</button>
+                </div>
+              </form>
+            </div>
+          </div>
+      
+          <div class="d-flex flex-column flex-sm-row justify-content-around py-4 my-4 border-top">
+            <img src="img/Main Page Images/footerimage/Logo.png" alt="">
+            <p>Meta</p>
+            <p>© JS Template 2023. All Rights Reserved.</p>
+            <ul class="list-unstyled d-flex footer-policy">
+              <li class="ms-3"><a href="#">Term of Use</a></li>
+              <li class="ms-3"><a href="#">Privacy Policy</a></li>
+              <li class="ms-3"><a href="#">Cookie Policy</a></li>
+            </ul>
+          </div>
+        </footer>
+
+          
+        
+      </div>
+    </div>
+  </div>
+
+</footer>  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

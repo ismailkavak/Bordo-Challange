@@ -1,0 +1,52 @@
+footer{
+    background-color: #E8E8EA;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.footer-col {
+    margin-top: 64px;
+}
+
+.footer-col>h4{
+    font-weight: 600;
+    font-size: 18px;
+    
+}
+
+.footer-col>p{
+    font-weight: 200;
+    font-size: 16px;
+    color: #696A75;
+}
+
+.form-tag{
+    border-radius: 12px;
+    background-color: white;
+    padding: 32px;
+}  
+
+.form-tag>form>h5{
+    text-align: center;
+    
+}
+
+.form-tag>form>p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #696A75;
+    text-align: center;
+
+
+}
+
+.footer-col>.about-ul{
+    font-weight: 400;
+    color: #696A75;
+}
+
+.footer-policy>li>a{
+    text-decoration: none;
+    color: #3B3C4A;
+
+}
+

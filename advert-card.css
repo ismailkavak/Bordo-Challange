@@ -1,21 +1,19 @@
 .advert-card{
-    width: 750px;
-    height: 100px;
+    width: 45%;
     background-color: #E8E8EA;
     border-radius: 12px;
     margin: auto;
-    margin-top: -180px;
-    margin-bottom: 80px;
-    
+    margin-bottom: 64px;
+    margin-top: 80px;    
 }
 
 .advert-card2{
-    width: 750px;
-    height: 100px;
+    width: 45%;
     background-color: #E8E8EA;
     border-radius: 12px;
     margin: auto;
-    margin-bottom: 100px;
+    margin-bottom: 64px;    
+
 }
 
 .advertisement{
@@ -28,7 +26,7 @@
 }
 
 .ads-message{
-    position: relative;
+    
     font-weight: 600;
     font-size: 20px;
     text-align: center;
@@ -40,6 +38,7 @@
     font-size: 18px;
     text-align: center;
     color: #696A75;
+    margin-bottom: 10px;
 }
 
 .advert-area{
@@ -52,51 +51,46 @@
     font-weight: 700;
     font-size: 24px;
     color: #181A2A;
+    margin-bottom: 16px;
     
     
 }
 
 .post-card{
-    width: 392px;
-    height: 488px;
-    box-sizing: 360px;
     border: 1px solid #E8E8EA;
     border-radius: 12px;
     padding: 16px;
-    
 }
 
 .post-img{
-    width: 360px;
-    height: 240px;
     border-radius: 6px;
     margin-bottom: 16px;
 }
+    
 
 .post-text-container{
-    width: 360px;
-    height: 200px;
-    padding: 8px;
-}
+    padding: 16px;
+}    
+
 
 .post-tag{
     text-align: center;
-    width: 97px;
-    height: 28px;
     border-radius: 6px;
     padding: 4px;
     background-color: #4B6BFB0D;
+    margin-right: 200px;
+}    
    
-}
+
 
 .post-tag>span{
     margin: auto;
     color: #4B6BFB;
     font-size: 14px;
     font-weight: 600;
+}    
     
-    
-}
+
 
 .post-text-container>.inner-content{
     margin-top: 16px;
@@ -104,10 +98,15 @@
     font-size: 24px;
     margin-bottom: 20px;
     color: #181A2A;
-    line-height: 28px;
     
-    
+}    
+@media (max-width: 768px) {
+    .post-text-container > .inner-content {
+        font-size: 16px;
+    }
 }
+    
+
 
 
 .view-button{
@@ -116,8 +115,9 @@
     border-radius: 6px;
     border: 1px solid #696A754D;
     margin: 32 auto;
-}    
-
+    
+}
+    
 .view-button:hover{
     background-color: white;
 }
@@ -125,4 +125,6 @@
 .view-button>span{
     color: #696A75;
     text-align: center;
-}
+}      
+  
+
