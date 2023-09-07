@@ -1,0 +1,32 @@
+.user-bio-content{
+    background-color: #F6F6F7;
+    border-radius: 12px;
+    padding: 48px;
+}
+
+.person-name{
+    font-size: 20px;
+}
+
+.person-competence{
+    color: #696A75;
+    font-size: 14px;
+}
+
+.person-text{
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #3B3C4A;
+}
+
+.logos>img{
+    height: 48px;
+    width: 48px;
+    border-radius: 6px;
+    padding: 8px;
+    background-color: #696A75;
+    margin-top: 24px;
+    margin-left: 12px;
+}    
+    
