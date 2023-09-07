@@ -1,0 +1,14 @@
+.sp-article-card{
+    background-color: #E8E8EA;
+    border-radius: 12px;
+    padding: 32px;
+    border-left: 4px solid #DCDDDF;
+    margin-bottom: 32px;
+}
+
+.sp-article-card>span{
+    font-size: 20px;
+    font-style: italic;
+    line-height: 32px;
+    font-family: 'Source Serif 4', serif;
+}
