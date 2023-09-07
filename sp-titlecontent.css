@@ -1,0 +1,51 @@
+.singlepost-card {
+    background-color: white;
+}       
+    
+ 
+    
+.singlepost-card>.inner-content {
+    line-height: 40px;
+    font-weight: 600;
+    margin-bottom: 24px;
+    font-size: 36px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.singlepost-card>.card-head{
+    top: 0;
+    left: 0;
+    margin-right: 700px;
+    border-radius: 6px;
+    padding: 2px;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}    
+            
+
+
+.user-info-container>span{
+    margin-left: 6px;
+    color: #97989F;
+}    
+
+#card-date, .user-info-container{
+    display: inline-block;
+}    
+    
+#card-date{
+    font-weight: 400;
+    color: #97989F;
+    font-size: 16px;
+    margin-left: 16px;
+}    
+
+
+
+
+   
+    
+    
+      
