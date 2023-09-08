@@ -1,0 +1,19 @@
+.view-button{
+    width: 142px;
+    height: 48px;
+    border-radius: 6px;
+    border: 1px solid #696A754D;
+    margin: 32 auto;
+    
+}
+
+.view-button:hover{
+    background-color: white;
+}
+
+.view-button>span{
+    color: #696A75;
+    text-align: center;
+}      
+
+    
